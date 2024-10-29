@@ -2,7 +2,7 @@ name: Puppeteer and Lighthouse
 
 on:
   workflow_run:
-    workflow: ["Deploy Next.js site to Pages"]
+    workflows: ["Deploy Next.js site to Pages"]
     types:
      - completed
 
